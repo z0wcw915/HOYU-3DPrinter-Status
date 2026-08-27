@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bambu Printer Dashboard</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --accent: #00ae42;
+      --text: #f8fafc;
+      --subtext: #94a3b8;
+    }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      display: flex;
+      justify-content: center;
+      padding: 2rem;
+      margin: 0;
+    }
+    .container {
+      max-width: 600px;
+      width: 100%;
+    }
+    .card {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+      margin-bottom: 1rem;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #334155;
+      padding-bottom: 1rem;
+      margin-bottom: 1rem;
+    }
+    .status-badge {
+      padding: 0.25rem 0.75rem;
+      border-radius: 9999px;
+      font-weight: bold;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      background: #334155;
+    }
+    .RUNNING { background: #15803d; color: #fff; }
+    .FINISH { background: #0369a1; color: #fff; }
+    .PAUSE { background: #b45309; color: #fff; }
+    
+    .progress-container {
+      margin: 1.5rem 0;
+    }
+    .progress-bar-bg {
+      background: #334155;
+      height: 24px;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .progress-bar-fill {
+      background: var(--accent);
+      height: 100%;
+      width: 0%;
+      transition: width 0.5s ease;
+    }
+    .progress-text {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 0.5rem;
+      font-weight: bold;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+    .metric {
+      background: #0f172a;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+    .metric-label { font-size: 0.8rem; color: var(--subtext); }
+    .metric-value { font-size: 1.25rem; font-weight: bold; margin-top: 0.25rem; }
+    .footer { text-align: center; font-size: 0.8rem; color: var(--subtext); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="header">
+        <h2 style="margin:0;">Bambu Monitor</h2>
+        <span id="state-badge" class="status-badge">OFFLINE</span>
+      </div>
+      
+      <div style="font-size: 0.9rem; color: var(--subtext);">
+        File: <strong id="filename" style="color:var(--text);">Loading...</strong>
+      </div>
+
+      <div class="progress-container">
+        <div class="progress-bar-bg">
+          <div id="progress-fill" class="progress-bar-fill"></div>
+        </div>
+        <div class="progress-text">
+          <span>Progress</span>
+          <span id="percent-text">0%</span>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="metric"><div class="metric-label">ETA Remaining</div><div id="eta" class="metric-value">-- min</div></div>
+        <div class="metric"><div class="metric-label">Layer</div><div id="layer" class="metric-value">0 / 0</div></div>
+        <div class="metric"><div class="metric-label">Nozzle Temp</div><div id="nozzle" class="metric-value">-- °C</div></div>
+        <div class="metric"><div class="metric-label">Bed Temp</div><div id="bed" class="metric-value">-- °C</div></div>
+      </div>
+    </div>
+    <div class="footer">Last updated: <span id="last-update">Never</span></div>
+  </div>
+
+  <script>
+    async function updateDashboard() {
+      try {
+        // Fetch status file with cache-busting timestamp
+        const res = await fetch(`status.json?t=${Date.now()}`);
+        if (!res.ok) return;
+        const data = await res.json();
+
+        document.getElementById('filename').innerText = data.filename || 'Idle';
+        document.getElementById('percent-text').innerText = `${data.percent}%`;
+        document.getElementById('progress-fill').style.width = `${data.percent}%`;
+        
+        document.getElementById('eta').innerText = `${data.remaining_min} min`;
+        document.getElementById('layer').innerText = data.layer;
+        document.getElementById('nozzle').innerText = `${data.nozzle_temp} °C`;
+        document.getElementById('bed').innerText = `${data.bed_temp} °C`;
+        document.getElementById('last-update').innerText = new Date().toLocaleTimeString();
+
+        const badge = document.getElementById('state-badge');
+        badge.innerText = data.state;
+        badge.className = `status-badge ${data.state}`;
+      } catch (e) {
+        console.error("Failed to fetch printer status:", e);
+      }
+    }
+
+    // Refresh every 5 seconds
+    setInterval(updateDashboard, 5000);
+    updateDashboard();
+  </script>
+</body>
+</html>
