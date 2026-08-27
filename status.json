@@ -1,0 +1,82 @@
+{
+  "printer_1": {
+    "name": "Bambu P1S",
+    "percent": 0,
+    "remaining_min": 0,
+    "state": "OFFLINE",
+    "filename": "Unknown",
+    "layer": "0 / 0",
+    "nozzle_temp": 0,
+    "bed_temp": 0
+  },
+  "printer_2": {
+    "name": "Bambu P1S",
+    "percent": 0,
+    "remaining_min": 0,
+    "state": "OFFLINE",
+    "filename": "Unknown",
+    "layer": "0 / 0",
+    "nozzle_temp": 0,
+    "bed_temp": 0
+  },
+  "printer_3": {
+    "name": "Bambu P1S",
+    "percent": 0,
+    "remaining_min": 0,
+    "state": "OFFLINE",
+    "filename": "Unknown",
+    "layer": "0 / 0",
+    "nozzle_temp": 0,
+    "bed_temp": 0
+  },
+  "printer_4": {
+    "name": "Bambu P1S",
+    "percent": 0,
+    "remaining_min": 0,
+    "state": "OFFLINE",
+    "filename": "Unknown",
+    "layer": "0 / 0",
+    "nozzle_temp": 0,
+    "bed_temp": 0
+  },
+  "printer_5": {
+    "name": "Bambu P1S",
+    "percent": 0,
+    "remaining_min": 0,
+    "state": "OFFLINE",
+    "filename": "Unknown",
+    "layer": "0 / 0",
+    "nozzle_temp": 0,
+    "bed_temp": 0
+  },
+  "printer_6": {
+    "name": "Bambu P1S",
+    "percent": 0,
+    "remaining_min": 0,
+    "state": "OFFLINE",
+    "filename": "Unknown",
+    "layer": "0 / 0",
+    "nozzle_temp": 0,
+    "bed_temp": 0
+  },
+  "printer_7": {
+    "name": "Bambu A1mini 1",
+    "percent": 0,
+    "remaining_min": 0,
+    "state": "OFFLINE",
+    "filename": "Unknown",
+    "layer": "0 / 0",
+    "nozzle_temp": 0,
+    "bed_temp": 0
+  },
+  "printer_8": {
+    "name": "Bambu A1mini 2",
+    "percent": 0,
+    "remaining_min": 0,
+    "state": "OFFLINE",
+    "filename": "Unknown",
+    "layer": "0 / 0",
+    "nozzle_temp": 0,
+    "bed_temp": 0
+  }
+}
