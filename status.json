@@ -1,13 +1,13 @@
 {
   "printer_1": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 1",
-    "percent": 0,
+    "percent": 100,
     "remaining_min": 0,
-    "state": "OFFLINE",
-    "filename": "Unknown",
-    "layer": "0 / 0",
-    "nozzle_temp": 0,
-    "bed_temp": 0
+    "state": "FINISH",
+    "filename": "UV_Light_Plate_Circle_v2.stl_A + UV_Light_Plate_Circle_v2.stl_A 1 + UV_Light_Plate_Circle_v2.stl_....3mf",
+    "layer": "55 / 55",
+    "nozzle_temp": 34,
+    "bed_temp": 31
   },
   "printer_2": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 2",
@@ -41,23 +41,23 @@
   },
   "printer_5": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 5",
-    "percent": 0,
-    "remaining_min": 0,
-    "state": "OFFLINE",
-    "filename": "Unknown",
-    "layer": "0 / 0",
-    "nozzle_temp": 0,
-    "bed_temp": 0
+    "percent": 45,
+    "remaining_min": 82,
+    "state": "RUNNING",
+    "filename": "UV_Light_Plate_Circle_v2.stl_A + UV_Light_Plate_Circle_v2.stl_A 1 + UV_Light_Plate_Circle_v2.stl_....3mf",
+    "layer": "7 / 55",
+    "nozzle_temp": 219,
+    "bed_temp": 54
   },
   "printer_6": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 6",
-    "percent": 0,
-    "remaining_min": 0,
-    "state": "OFFLINE",
-    "filename": "Unknown",
-    "layer": "0 / 0",
-    "nozzle_temp": 0,
-    "bed_temp": 0
+    "percent": 26,
+    "remaining_min": 112,
+    "state": "RUNNING",
+    "filename": "UV_Light_Plate_Circle_v2.stl_A + UV_Light_Plate_Circle_v2.stl_A 1 + UV_Light_Plate_Circle_v2.stl_....3mf",
+    "layer": "3 / 55",
+    "nozzle_temp": 219,
+    "bed_temp": 55
   },
   "printer_7": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5A1 mini 1",
@@ -71,12 +71,12 @@
   },
   "printer_8": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5A1 mini 2",
-    "percent": 0,
+    "percent": 100,
     "remaining_min": 0,
-    "state": "OFFLINE",
-    "filename": "Unknown",
-    "layer": "0 / 0",
-    "nozzle_temp": 0,
-    "bed_temp": 0
+    "state": "FINISH",
+    "filename": "Cube",
+    "layer": "15 / 15",
+    "nozzle_temp": 21,
+    "bed_temp": 21
   }
 }
