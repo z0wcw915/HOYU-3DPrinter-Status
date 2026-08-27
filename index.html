@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bambu Printer Dashboard</title>
+  <title>Bambu Lab Multi-Printer Dashboard</title>
   <style>
     :root {
       --bg: #0f172a;
@@ -17,48 +17,54 @@
       background: var(--bg);
       color: var(--text);
       display: flex;
-      justify-content: center;
+      flex-direction: column;
+      align-items: center;
       padding: 2rem;
       margin: 0;
     }
     .container {
-      max-width: 600px;
+      max-width: 1000px;
       width: 100%;
+    }
+    .grid-printers {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1.5rem;
     }
     .card {
       background: var(--card);
       border-radius: 12px;
       padding: 1.5rem;
       box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
-      margin-bottom: 1rem;
     }
     .header {
       display: flex;
       justify-content: space-between;
       align-items: center;
       border-bottom: 1px solid #334155;
-      padding-bottom: 1rem;
+      padding-bottom: 0.75rem;
       margin-bottom: 1rem;
     }
+    .printer-name { font-size: 1.2rem; font-weight: bold; margin: 0; }
     .status-badge {
-      padding: 0.25rem 0.75rem;
+      padding: 0.25rem 0.6rem;
       border-radius: 9999px;
       font-weight: bold;
-      font-size: 0.85rem;
+      font-size: 0.75rem;
       text-transform: uppercase;
       background: #334155;
     }
     .RUNNING { background: #15803d; color: #fff; }
     .FINISH { background: #0369a1; color: #fff; }
     .PAUSE { background: #b45309; color: #fff; }
+    .OFFLINE { background: #475569; color: #cbd5e1; }
     
-    .progress-container {
-      margin: 1.5rem 0;
-    }
+    .progress-container { margin: 1rem 0; }
     .progress-bar-bg {
       background: #334155;
-      height: 24px;
-      border-radius: 12px;
+      height: 20px;
+      border-radius: 10px;
       overflow: hidden;
     }
     .progress-bar-fill {
@@ -70,83 +76,90 @@
     .progress-text {
       display: flex;
       justify-content: space-between;
-      margin-top: 0.5rem;
+      margin-top: 0.4rem;
       font-weight: bold;
+      font-size: 0.9rem;
     }
-    .grid {
+    .metrics-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: 1rem;
+      gap: 0.75rem;
+      margin-top: 1rem;
     }
     .metric {
       background: #0f172a;
-      padding: 1rem;
+      padding: 0.75rem;
       border-radius: 8px;
     }
-    .metric-label { font-size: 0.8rem; color: var(--subtext); }
-    .metric-value { font-size: 1.25rem; font-weight: bold; margin-top: 0.25rem; }
-    .footer { text-align: center; font-size: 0.8rem; color: var(--subtext); }
+    .metric-label { font-size: 0.75rem; color: var(--subtext); }
+    .metric-value { font-size: 1.1rem; font-weight: bold; margin-top: 0.2rem; }
+    .footer { text-align: center; font-size: 0.8rem; color: var(--subtext); margin-top: 2rem; }
   </style>
 </head>
 <body>
   <div class="container">
-    <div class="card">
-      <div class="header">
-        <h2 style="margin:0;">Bambu Monitor</h2>
-        <span id="state-badge" class="status-badge">OFFLINE</span>
-      </div>
-      
-      <div style="font-size: 0.9rem; color: var(--subtext);">
-        File: <strong id="filename" style="color:var(--text);">Loading...</strong>
-      </div>
-
-      <div class="progress-container">
-        <div class="progress-bar-bg">
-          <div id="progress-fill" class="progress-bar-fill"></div>
-        </div>
-        <div class="progress-text">
-          <span>Progress</span>
-          <span id="percent-text">0%</span>
-        </div>
-      </div>
-
-      <div class="grid">
-        <div class="metric"><div class="metric-label">ETA Remaining</div><div id="eta" class="metric-value">-- min</div></div>
-        <div class="metric"><div class="metric-label">Layer</div><div id="layer" class="metric-value">0 / 0</div></div>
-        <div class="metric"><div class="metric-label">Nozzle Temp</div><div id="nozzle" class="metric-value">-- °C</div></div>
-        <div class="metric"><div class="metric-label">Bed Temp</div><div id="bed" class="metric-value">-- °C</div></div>
-      </div>
+    <div style="display:flex; justify-between; align-items:center;">
+      <h1 style="margin:0;">Farm Fleet Dashboard</h1>
     </div>
-    <div class="footer">Last updated: <span id="last-update">Never</span></div>
+
+    <div id="printers-grid" class="grid-printers">
+      <!-- Dynamic Printer Cards Render Here -->
+    </div>
+
+    <div class="footer">Last synced with GitHub: <span id="last-update">Never</span></div>
   </div>
 
   <script>
     async function updateDashboard() {
       try {
-        // Fetch status file with cache-busting timestamp
         const res = await fetch(`status.json?t=${Date.now()}`);
         if (!res.ok) return;
         const data = await res.json();
 
-        document.getElementById('filename').innerText = data.filename || 'Idle';
-        document.getElementById('percent-text').innerText = `${data.percent}%`;
-        document.getElementById('progress-fill').style.width = `${data.percent}%`;
-        
-        document.getElementById('eta').innerText = `${data.remaining_min} min`;
-        document.getElementById('layer').innerText = data.layer;
-        document.getElementById('nozzle').innerText = `${data.nozzle_temp} °C`;
-        document.getElementById('bed').innerText = `${data.bed_temp} °C`;
-        document.getElementById('last-update').innerText = new Date().toLocaleTimeString();
+        const grid = document.getElementById('printers-grid');
+        grid.innerHTML = ''; // Clear prior entries
 
-        const badge = document.getElementById('state-badge');
-        badge.innerText = data.state;
-        badge.className = `status-badge ${data.state}`;
+        Object.keys(data).forEach(printerKey => {
+          const p = data[printerKey];
+          
+          const cardHtml = `
+            <div class="card">
+              <div class="header">
+                <h3 class="printer-name">${p.name}</h3>
+                <span class="status-badge ${p.state}">${p.state}</span>
+              </div>
+              
+              <div style="font-size: 0.85rem; color: var(--subtext); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                File: <strong style="color:var(--text);">${p.filename}</strong>
+              </div>
+
+              <div class="progress-container">
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill" style="width: ${p.percent}%;"></div>
+                </div>
+                <div class="progress-text">
+                  <span>Progress</span>
+                  <span>${p.percent}%</span>
+                </div>
+              </div>
+
+              <div class="metrics-grid">
+                <div class="metric"><div class="metric-label">ETA Remaining</div><div class="metric-value">${p.remaining_min} min</div></div>
+                <div class="metric"><div class="metric-label">Layer</div><div class="metric-value">${p.layer}</div></div>
+                <div class="metric"><div class="metric-label">Nozzle Temp</div><div class="metric-value">${p.nozzle_temp} °C</div></div>
+                <div class="metric"><div class="metric-label">Bed Temp</div><div class="metric-value">${p.bed_temp} °C</div></div>
+              </div>
+            </div>
+          `;
+          grid.innerHTML += cardHtml;
+        });
+
+        document.getElementById('last-update').innerText = new Date().toLocaleTimeString();
       } catch (e) {
-        console.error("Failed to fetch printer status:", e);
+        console.error("Error updating fleet status:", e);
       }
     }
 
-    // Refresh every 5 seconds
     setInterval(updateDashboard, 5000);
     updateDashboard();
   </script>
