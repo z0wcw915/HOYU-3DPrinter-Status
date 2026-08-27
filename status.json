@@ -11,13 +11,13 @@
   },
   "printer_2": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 2",
-    "percent": 0,
+    "percent": 100,
     "remaining_min": 0,
-    "state": "OFFLINE",
-    "filename": "Unknown",
-    "layer": "0 / 0",
-    "nozzle_temp": 0,
-    "bed_temp": 0
+    "state": "FINISH",
+    "filename": "UV_Light_Plate_Circle_v2.stl_A + UV_Light_Plate_Circle_v2.stl_A 1 + UV_Light_Plate_Circle_v2.stl_....3mf",
+    "layer": "55 / 55",
+    "nozzle_temp": 34,
+    "bed_temp": 32
   },
   "printer_3": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 3",
@@ -41,18 +41,18 @@
   },
   "printer_5": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 5",
-    "percent": 45,
+    "percent": 46,
     "remaining_min": 82,
     "state": "RUNNING",
     "filename": "UV_Light_Plate_Circle_v2.stl_A + UV_Light_Plate_Circle_v2.stl_A 1 + UV_Light_Plate_Circle_v2.stl_....3mf",
     "layer": "7 / 55",
     "nozzle_temp": 219,
-    "bed_temp": 54
+    "bed_temp": 55
   },
   "printer_6": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 6",
     "percent": 26,
-    "remaining_min": 112,
+    "remaining_min": 111,
     "state": "RUNNING",
     "filename": "UV_Light_Plate_Circle_v2.stl_A + UV_Light_Plate_Circle_v2.stl_A 1 + UV_Light_Plate_Circle_v2.stl_....3mf",
     "layer": "3 / 55",
@@ -62,12 +62,12 @@
   "printer_7": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5A1 mini 1",
     "percent": 0,
-    "remaining_min": 0,
-    "state": "OFFLINE",
-    "filename": "Unknown",
-    "layer": "0 / 0",
-    "nozzle_temp": 0,
-    "bed_temp": 0
+    "remaining_min": 10,
+    "state": "FAILED",
+    "filename": "UV\u71c8\u7bb1backcase.stl 14 + UV\u71c8\u7bb1backcase.stl 14 1 + UV\u71c8\u7bb1backcase.stl 14 2 + UV\u71c8\u7bb1backcas....3mf",
+    "layer": "413 / 415",
+    "nozzle_temp": 22,
+    "bed_temp": 21
   },
   "printer_8": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5A1 mini 2",
