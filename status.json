@@ -27,7 +27,7 @@
     "filename": "UV_Light_Plate_Circle_v2_plate_1",
     "layer": "7 / 55",
     "nozzle_temp": 219,
-    "bed_temp": 54
+    "bed_temp": 55
   },
   "printer_4": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 4",
@@ -42,17 +42,17 @@
   "printer_5": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 5",
     "percent": 46,
-    "remaining_min": 82,
+    "remaining_min": 81,
     "state": "RUNNING",
     "filename": "UV_Light_Plate_Circle_v2.stl_A + UV_Light_Plate_Circle_v2.stl_A 1 + UV_Light_Plate_Circle_v2.stl_....3mf",
     "layer": "7 / 55",
     "nozzle_temp": 219,
-    "bed_temp": 54
+    "bed_temp": 55
   },
   "printer_6": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 6",
     "percent": 27,
-    "remaining_min": 111,
+    "remaining_min": 110,
     "state": "RUNNING",
     "filename": "UV_Light_Plate_Circle_v2.stl_A + UV_Light_Plate_Circle_v2.stl_A 1 + UV_Light_Plate_Circle_v2.stl_....3mf",
     "layer": "3 / 55",
