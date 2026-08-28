@@ -6,7 +6,7 @@
     "state": "RUNNING",
     "filename": "150% Scale 0.2mm layer, 2 walls, 15% infill",
     "layer": "38 / 44",
-    "nozzle_temp": 219,
+    "nozzle_temp": 220,
     "bed_temp": 54
   },
   "printer_2": {
