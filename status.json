@@ -7,7 +7,7 @@
     "filename": "150% Scale 0.2mm layer, 2 walls, 15% infill",
     "layer": "27 / 44",
     "nozzle_temp": 219,
-    "bed_temp": 54
+    "bed_temp": 55
   },
   "printer_2": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 2",
@@ -46,7 +46,7 @@
     "state": "FINISH",
     "filename": "Full kit with frame",
     "layer": "2 / 82",
-    "nozzle_temp": 115,
+    "nozzle_temp": 114,
     "bed_temp": 53
   },
   "printer_6": {
