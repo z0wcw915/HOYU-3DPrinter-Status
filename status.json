@@ -1,12 +1,12 @@
 {
   "printer_1": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 1",
-    "percent": 0,
-    "remaining_min": 171,
+    "percent": 2,
+    "remaining_min": 167,
     "state": "RUNNING",
     "filename": "150% Scale 0.2mm layer, 2 walls, 15% infill",
     "layer": "0 / 44",
-    "nozzle_temp": 247,
+    "nozzle_temp": 224,
     "bed_temp": 54
   },
   "printer_2": {
