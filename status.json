@@ -2,22 +2,22 @@
   "printer_1": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 1",
     "percent": 88,
-    "remaining_min": 20,
+    "remaining_min": 19,
     "state": "RUNNING",
     "filename": "150% Scale 0.2mm layer, 2 walls, 15% infill",
-    "layer": "36 / 44",
-    "nozzle_temp": 219,
+    "layer": "37 / 44",
+    "nozzle_temp": 220,
     "bed_temp": 54
   },
   "printer_2": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 2",
     "percent": 85,
-    "remaining_min": 25,
+    "remaining_min": 24,
     "state": "RUNNING",
     "filename": "150% Scale 0.2mm layer, 2 walls, 15% infill",
     "layer": "2 / 44",
     "nozzle_temp": 220,
-    "bed_temp": 54
+    "bed_temp": 55
   },
   "printer_3": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 3",
