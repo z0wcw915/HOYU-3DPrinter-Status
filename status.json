@@ -22,7 +22,7 @@
   "printer_3": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 3",
     "percent": 69,
-    "remaining_min": 47,
+    "remaining_min": 46,
     "state": "RUNNING",
     "filename": "UV_Light_Plate_Circle_v2_plate_1",
     "layer": "30 / 55",
@@ -46,8 +46,8 @@
     "state": "FINISH",
     "filename": "Full kit with frame",
     "layer": "2 / 82",
-    "nozzle_temp": 170,
-    "bed_temp": 54
+    "nozzle_temp": 153,
+    "bed_temp": 53
   },
   "printer_6": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 6",
@@ -56,7 +56,7 @@
     "state": "FINISH",
     "filename": "Full kit with frame",
     "layer": "82 / 82",
-    "nozzle_temp": 43,
+    "nozzle_temp": 42,
     "bed_temp": 38
   },
   "printer_7": {
