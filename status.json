@@ -16,7 +16,7 @@
     "state": "RUNNING",
     "filename": "150% Scale 0.2mm layer, 2 walls, 15% infill",
     "layer": "1 / 44",
-    "nozzle_temp": 219,
+    "nozzle_temp": 220,
     "bed_temp": 55
   },
   "printer_3": {
@@ -56,7 +56,7 @@
     "state": "RUNNING",
     "filename": "Full kit with frame",
     "layer": "168 / 168",
-    "nozzle_temp": 203,
+    "nozzle_temp": 197,
     "bed_temp": 54
   },
   "printer_7": {
