@@ -1,8 +1,8 @@
 {
   "printer_1": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 1",
-    "percent": 69,
-    "remaining_min": 58,
+    "percent": 70,
+    "remaining_min": 57,
     "state": "RUNNING",
     "filename": "FTCToolsXblade_BOX_plate_9",
     "layer": "195 / 775",
@@ -11,13 +11,13 @@
   },
   "printer_2": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 2",
-    "percent": 98,
+    "percent": 99,
     "remaining_min": 1,
     "state": "RUNNING",
     "filename": "FTCToolsXblade_BOX_plate_8",
     "layer": "168 / 168",
-    "nozzle_temp": 220,
-    "bed_temp": 54
+    "nozzle_temp": 219,
+    "bed_temp": 55
   },
   "printer_3": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 3",
