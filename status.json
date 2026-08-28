@@ -26,7 +26,7 @@
     "state": "FINISH",
     "filename": "UV_Light_Plate_Circle_v2_plate_1",
     "layer": "45 / 55",
-    "nozzle_temp": 45,
+    "nozzle_temp": 44,
     "bed_temp": 41
   },
   "printer_4": {
