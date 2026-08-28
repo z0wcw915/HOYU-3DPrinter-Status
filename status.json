@@ -46,7 +46,7 @@
     "state": "FINISH",
     "filename": "FTCToolsXblade_BOX_plate_7",
     "layer": "168 / 168",
-    "nozzle_temp": 212,
+    "nozzle_temp": 221,
     "bed_temp": 30
   },
   "printer_6": {
@@ -56,7 +56,7 @@
     "state": "FINISH",
     "filename": "FTCToolsXblade_BOX_plate_7",
     "layer": "168 / 168",
-    "nozzle_temp": 229,
+    "nozzle_temp": 225,
     "bed_temp": 30
   },
   "printer_7": {
