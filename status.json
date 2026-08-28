@@ -6,7 +6,7 @@
     "state": "RUNNING",
     "filename": "FTCToolsXblade_BOX_plate_9",
     "layer": "164 / 775",
-    "nozzle_temp": 220,
+    "nozzle_temp": 219,
     "bed_temp": 54
   },
   "printer_2": {
@@ -15,7 +15,7 @@
     "remaining_min": 13,
     "state": "RUNNING",
     "filename": "FTCToolsXblade_BOX_plate_8",
-    "layer": "163 / 168",
+    "layer": "164 / 168",
     "nozzle_temp": 219,
     "bed_temp": 54
   },
