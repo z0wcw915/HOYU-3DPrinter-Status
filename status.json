@@ -7,7 +7,7 @@
     "filename": "150% Scale 0.2mm layer, 2 walls, 15% infill",
     "layer": "29 / 44",
     "nozzle_temp": 220,
-    "bed_temp": 55
+    "bed_temp": 54
   },
   "printer_2": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 2",
@@ -25,8 +25,8 @@
     "remaining_min": 35,
     "state": "RUNNING",
     "filename": "UV_Light_Plate_Circle_v2_plate_1",
-    "layer": "37 / 55",
-    "nozzle_temp": 220,
+    "layer": "40 / 55",
+    "nozzle_temp": 240,
     "bed_temp": 54
   },
   "printer_4": {
