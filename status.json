@@ -5,9 +5,9 @@
     "remaining_min": 0,
     "state": "FINISH",
     "filename": "FTCToolsXblade_BOX_plate_9",
-    "layer": "774 / 775",
-    "nozzle_temp": 118,
-    "bed_temp": 53
+    "layer": "775 / 775",
+    "nozzle_temp": 110,
+    "bed_temp": 52
   },
   "printer_2": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 2",
@@ -16,7 +16,7 @@
     "state": "FINISH",
     "filename": "FTCToolsXblade_BOX_plate_8",
     "layer": "168 / 168",
-    "nozzle_temp": 42,
+    "nozzle_temp": 41,
     "bed_temp": 38
   },
   "printer_3": {
