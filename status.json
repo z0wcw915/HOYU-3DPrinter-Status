@@ -12,11 +12,11 @@
   "printer_2": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 2",
     "percent": 7,
-    "remaining_min": 163,
+    "remaining_min": 162,
     "state": "RUNNING",
     "filename": "150% Scale 0.2mm layer, 2 walls, 15% infill",
     "layer": "1 / 44",
-    "nozzle_temp": 220,
+    "nozzle_temp": 219,
     "bed_temp": 54
   },
   "printer_3": {
@@ -41,13 +41,13 @@
   },
   "printer_5": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 5",
-    "percent": 100,
-    "remaining_min": 0,
-    "state": "PREPARE",
+    "percent": 0,
+    "remaining_min": 92,
+    "state": "RUNNING",
     "filename": "Full kit with frame",
-    "layer": "168 / 168",
-    "nozzle_temp": 192,
-    "bed_temp": 43
+    "layer": "0 / 82",
+    "nozzle_temp": 191,
+    "bed_temp": 54
   },
   "printer_6": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 6",
