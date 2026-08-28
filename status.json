@@ -6,7 +6,7 @@
     "state": "FINISH",
     "filename": "150% Scale 0.2mm layer, 2 walls, 15% infill",
     "layer": "44 / 44",
-    "nozzle_temp": 52,
+    "nozzle_temp": 51,
     "bed_temp": 46
   },
   "printer_2": {
@@ -16,7 +16,7 @@
     "state": "FINISH",
     "filename": "150% Scale 0.2mm layer, 2 walls, 15% infill",
     "layer": "2 / 44",
-    "nozzle_temp": 82,
+    "nozzle_temp": 78,
     "bed_temp": 49
   },
   "printer_3": {
