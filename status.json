@@ -6,7 +6,7 @@
     "state": "RUNNING",
     "filename": "FTCToolsXblade_BOX_plate_9",
     "layer": "680 / 775",
-    "nozzle_temp": 220,
+    "nozzle_temp": 219,
     "bed_temp": 55
   },
   "printer_2": {
