@@ -5,8 +5,8 @@
     "remaining_min": 171,
     "state": "RUNNING",
     "filename": "150% Scale 0.2mm layer, 2 walls, 15% infill",
-    "layer": "638 / 638",
-    "nozzle_temp": 227,
+    "layer": "0 / 44",
+    "nozzle_temp": 247,
     "bed_temp": 54
   },
   "printer_2": {
