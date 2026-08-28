@@ -2,7 +2,7 @@
   "printer_1": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 1",
     "percent": 69,
-    "remaining_min": 59,
+    "remaining_min": 58,
     "state": "RUNNING",
     "filename": "FTCToolsXblade_BOX_plate_9",
     "layer": "195 / 775",
@@ -17,7 +17,7 @@
     "filename": "FTCToolsXblade_BOX_plate_8",
     "layer": "168 / 168",
     "nozzle_temp": 220,
-    "bed_temp": 55
+    "bed_temp": 54
   },
   "printer_3": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 3",
