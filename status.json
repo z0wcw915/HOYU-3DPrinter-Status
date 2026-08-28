@@ -16,7 +16,7 @@
     "state": "RUNNING",
     "filename": "FTCToolsXblade_BOX_plate_8",
     "layer": "50 / 168",
-    "nozzle_temp": 219,
+    "nozzle_temp": 220,
     "bed_temp": 55
   },
   "printer_3": {
@@ -66,7 +66,7 @@
     "state": "FAILED",
     "filename": "UV\u71c8\u7bb1backcase.stl 14 + UV\u71c8\u7bb1backcase.stl 14 1 + UV\u71c8\u7bb1backcase.stl 14 2 + UV\u71c8\u7bb1backcas....3mf",
     "layer": "413 / 415",
-    "nozzle_temp": 31,
+    "nozzle_temp": 30,
     "bed_temp": 30
   },
   "printer_8": {
