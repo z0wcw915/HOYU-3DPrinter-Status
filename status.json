@@ -46,7 +46,7 @@
     "state": "RUNNING",
     "filename": "Full kit with frame",
     "layer": "0 / 82",
-    "nozzle_temp": 198,
+    "nozzle_temp": 199,
     "bed_temp": 54
   },
   "printer_6": {
@@ -56,7 +56,7 @@
     "state": "RUNNING",
     "filename": "Full kit with frame",
     "layer": "168 / 168",
-    "nozzle_temp": 230,
+    "nozzle_temp": 238,
     "bed_temp": 54
   },
   "printer_7": {
