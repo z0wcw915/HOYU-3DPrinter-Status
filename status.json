@@ -46,7 +46,7 @@
     "state": "FINISH",
     "filename": "Full kit with frame",
     "layer": "2 / 82",
-    "nozzle_temp": 125,
+    "nozzle_temp": 123,
     "bed_temp": 53
   },
   "printer_6": {
