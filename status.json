@@ -16,7 +16,7 @@
     "state": "RUNNING",
     "filename": "150% Scale 0.2mm layer, 2 walls, 15% infill",
     "layer": "2 / 44",
-    "nozzle_temp": 219,
+    "nozzle_temp": 220,
     "bed_temp": 55
   },
   "printer_3": {
@@ -26,7 +26,7 @@
     "state": "RUNNING",
     "filename": "UV_Light_Plate_Circle_v2_plate_1",
     "layer": "6 / 55",
-    "nozzle_temp": 219,
+    "nozzle_temp": 220,
     "bed_temp": 55
   },
   "printer_4": {
@@ -56,7 +56,7 @@
     "state": "FINISH",
     "filename": "Full kit with frame",
     "layer": "82 / 82",
-    "nozzle_temp": 180,
+    "nozzle_temp": 177,
     "bed_temp": 54
   },
   "printer_7": {
