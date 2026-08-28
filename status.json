@@ -6,7 +6,7 @@
     "state": "FINISH",
     "filename": "FTCToolsXblade_BOX_plate_5",
     "layer": "638 / 638",
-    "nozzle_temp": 195,
+    "nozzle_temp": 249,
     "bed_temp": 30
   },
   "printer_2": {
@@ -16,7 +16,7 @@
     "state": "FINISH",
     "filename": "FTCToolsXblade_BOX_plate_5",
     "layer": "173 / 173",
-    "nozzle_temp": 249,
+    "nozzle_temp": 250,
     "bed_temp": 31
   },
   "printer_3": {
@@ -26,7 +26,7 @@
     "state": "FINISH",
     "filename": "UV_Light_Plate_Circle_v2_plate_1.3mf",
     "layer": "55 / 55",
-    "nozzle_temp": 37,
+    "nozzle_temp": 36,
     "bed_temp": 33
   },
   "printer_4": {
