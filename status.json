@@ -1,12 +1,12 @@
 {
   "printer_1": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 1",
-    "percent": 99,
+    "percent": 100,
     "remaining_min": 0,
-    "state": "RUNNING",
+    "state": "FINISH",
     "filename": "FTCToolsXblade_BOX_plate_9",
     "layer": "774 / 775",
-    "nozzle_temp": 220,
+    "nozzle_temp": 202,
     "bed_temp": 54
   },
   "printer_2": {
