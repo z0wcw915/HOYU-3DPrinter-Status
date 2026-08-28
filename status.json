@@ -16,7 +16,7 @@
     "state": "RUNNING",
     "filename": "150% Scale 0.2mm layer, 2 walls, 15% infill",
     "layer": "1 / 44",
-    "nozzle_temp": 219,
+    "nozzle_temp": 220,
     "bed_temp": 55
   },
   "printer_3": {
@@ -44,7 +44,7 @@
     "percent": 100,
     "remaining_min": 0,
     "state": "FINISH",
-    "filename": "FTCToolsXblade_BOX_plate_7",
+    "filename": "Full kit with frame",
     "layer": "168 / 168",
     "nozzle_temp": 224,
     "bed_temp": 30
@@ -56,7 +56,7 @@
     "state": "FINISH",
     "filename": "FTCToolsXblade_BOX_plate_7",
     "layer": "168 / 168",
-    "nozzle_temp": 206,
+    "nozzle_temp": 202,
     "bed_temp": 30
   },
   "printer_7": {
