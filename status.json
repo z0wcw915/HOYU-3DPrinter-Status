@@ -5,7 +5,7 @@
     "remaining_min": 164,
     "state": "RUNNING",
     "filename": "150% Scale 0.2mm layer, 2 walls, 15% infill",
-    "layer": "0 / 44",
+    "layer": "1 / 44",
     "nozzle_temp": 220,
     "bed_temp": 55
   },
@@ -16,17 +16,17 @@
     "state": "RUNNING",
     "filename": "150% Scale 0.2mm layer, 2 walls, 15% infill",
     "layer": "0 / 44",
-    "nozzle_temp": 146,
-    "bed_temp": 55
+    "nozzle_temp": 217,
+    "bed_temp": 54
   },
   "printer_3": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 3",
-    "percent": 0,
-    "remaining_min": 152,
+    "percent": 3,
+    "remaining_min": 147,
     "state": "RUNNING",
     "filename": "UV_Light_Plate_Circle_v2_plate_1",
     "layer": "55 / 55",
-    "nozzle_temp": 248,
+    "nozzle_temp": 238,
     "bed_temp": 54
   },
   "printer_4": {
