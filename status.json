@@ -2,16 +2,16 @@
   "printer_1": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 1",
     "percent": 23,
-    "remaining_min": 132,
+    "remaining_min": 131,
     "state": "RUNNING",
     "filename": "150% Scale 0.2mm layer, 2 walls, 15% infill",
     "layer": "4 / 44",
     "nozzle_temp": 220,
-    "bed_temp": 55
+    "bed_temp": 54
   },
   "printer_2": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 2",
-    "percent": 21,
+    "percent": 22,
     "remaining_min": 137,
     "state": "RUNNING",
     "filename": "150% Scale 0.2mm layer, 2 walls, 15% infill",
@@ -21,7 +21,7 @@
   },
   "printer_3": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 3",
-    "percent": 22,
+    "percent": 23,
     "remaining_min": 117,
     "state": "RUNNING",
     "filename": "UV_Light_Plate_Circle_v2_plate_1",
@@ -42,12 +42,12 @@
   "printer_5": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 5",
     "percent": 28,
-    "remaining_min": 66,
+    "remaining_min": 65,
     "state": "RUNNING",
     "filename": "Full kit with frame",
     "layer": "2 / 82",
-    "nozzle_temp": 220,
-    "bed_temp": 55
+    "nozzle_temp": 219,
+    "bed_temp": 54
   },
   "printer_6": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 6",
@@ -56,8 +56,8 @@
     "state": "RUNNING",
     "filename": "Full kit with frame",
     "layer": "15 / 82",
-    "nozzle_temp": 229,
-    "bed_temp": 54
+    "nozzle_temp": 230,
+    "bed_temp": 55
   },
   "printer_7": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5A1 mini 1",
