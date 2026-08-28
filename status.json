@@ -2,22 +2,22 @@
   "printer_1": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 1",
     "percent": 0,
-    "remaining_min": 193,
+    "remaining_min": 191,
     "state": "RUNNING",
     "filename": "FTCToolsXblade_BOX_plate_9",
     "layer": "0 / 775",
-    "nozzle_temp": 214,
+    "nozzle_temp": 249,
     "bed_temp": 54
   },
   "printer_2": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 2",
-    "percent": 100,
-    "remaining_min": 0,
-    "state": "PREPARE",
+    "percent": 0,
+    "remaining_min": 136,
+    "state": "RUNNING",
     "filename": "FTCToolsXblade_BOX_plate_8",
-    "layer": "44 / 44",
-    "nozzle_temp": 190,
-    "bed_temp": 39
+    "layer": "0 / 168",
+    "nozzle_temp": 185,
+    "bed_temp": 54
   },
   "printer_3": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 3",
@@ -27,7 +27,7 @@
     "filename": "UV_Light_Plate_Circle_v2_plate_1",
     "layer": "45 / 55",
     "nozzle_temp": 45,
-    "bed_temp": 42
+    "bed_temp": 41
   },
   "printer_4": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 4",
