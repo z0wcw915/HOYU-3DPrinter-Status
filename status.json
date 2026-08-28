@@ -7,7 +7,7 @@
     "filename": "FTCToolsXblade_BOX_plate_9",
     "layer": "775 / 775",
     "nozzle_temp": 38,
-    "bed_temp": 35
+    "bed_temp": 34
   },
   "printer_2": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 2",
@@ -67,7 +67,7 @@
     "filename": "UV\u71c8\u7bb1backcase.stl 14 + UV\u71c8\u7bb1backcase.stl 14 1 + UV\u71c8\u7bb1backcase.stl 14 2 + UV\u71c8\u7bb1backcas....3mf",
     "layer": "413 / 415",
     "nozzle_temp": 30,
-    "bed_temp": 29
+    "bed_temp": 30
   },
   "printer_8": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5A1 mini 2",
