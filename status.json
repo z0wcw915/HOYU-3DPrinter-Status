@@ -27,7 +27,7 @@
     "filename": "Agar Plate UV light Sensor slot",
     "layer": "75 / 75",
     "nozzle_temp": 33,
-    "bed_temp": 30
+    "bed_temp": 29
   },
   "printer_4": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 4",
@@ -67,7 +67,7 @@
     "filename": "",
     "layer": "0 / 0",
     "nozzle_temp": 29,
-    "bed_temp": 29
+    "bed_temp": 28
   },
   "printer_8": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5A1 mini 2",
