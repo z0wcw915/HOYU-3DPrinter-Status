@@ -45,18 +45,18 @@
     "remaining_min": 0,
     "state": "PREPARE",
     "filename": "FTCToolsXblade_BOX_plate_9",
-    "layer": "168 / 168",
+    "layer": "168 / 200",
     "nozzle_temp": 31,
-    "bed_temp": 29
+    "bed_temp": 33
   },
   "printer_6": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 6",
     "percent": 0,
-    "remaining_min": 27,
-    "state": "PREPARE",
+    "remaining_min": 104,
+    "state": "RUNNING",
     "filename": "Smooth Juttuli (3).stl_A",
-    "layer": "16 / 28",
-    "nozzle_temp": 38,
+    "layer": "0 / 28",
+    "nozzle_temp": 84,
     "bed_temp": 54
   },
   "printer_7": {
