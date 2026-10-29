@@ -16,7 +16,7 @@
     "state": "RUNNING",
     "filename": "Plant Sign (7).stl.3mf",
     "layer": "9 / 40",
-    "nozzle_temp": 270,
+    "nozzle_temp": 271,
     "bed_temp": 99
   },
   "printer_3": {
@@ -76,7 +76,7 @@
     "state": "FINISH",
     "filename": "30mm variant - 3 tubes_cables",
     "layer": "256 / 256",
-    "nozzle_temp": 28,
+    "nozzle_temp": 27,
     "bed_temp": 27
   }
 }
