@@ -51,12 +51,12 @@
   },
   "printer_6": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 6",
-    "percent": 19,
+    "percent": 20,
     "remaining_min": 83,
     "state": "RUNNING",
     "filename": "Smooth Juttuli (3).stl_A",
     "layer": "2 / 28",
-    "nozzle_temp": 220,
+    "nozzle_temp": 219,
     "bed_temp": 54
   },
   "printer_7": {
