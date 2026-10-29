@@ -42,7 +42,7 @@
   "printer_5": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 5",
     "percent": 76,
-    "remaining_min": 28,
+    "remaining_min": 27,
     "state": "RUNNING",
     "filename": "FTCToolsXblade_BOX_plate_9",
     "layer": "168 / 200",
@@ -52,11 +52,11 @@
   "printer_6": {
     "name": "\u96e2\u5cf6\u5c71\u5340\u5152\u7ae5P1S 6",
     "percent": 83,
-    "remaining_min": 17,
+    "remaining_min": 16,
     "state": "RUNNING",
     "filename": "Smooth Juttuli (3).stl_A",
-    "layer": "18 / 28",
-    "nozzle_temp": 219,
+    "layer": "20 / 28",
+    "nozzle_temp": 220,
     "bed_temp": 55
   },
   "printer_7": {
